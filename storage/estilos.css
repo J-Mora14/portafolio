@@ -1,0 +1,77 @@
+/* Estilos generales para todo el documento */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4; /* Fondo claro para mejor lectura */
+    color: #333; /* Texto oscuro para contraste */
+}
+
+/* Estilo para la caja del formulario */
+#cajaformulario {
+    margin: 30px;
+    padding: 20px;
+    border: 2px solid #005792; /* Borde azul oscuro */
+    border-radius: 10px;
+    background-color: #ffffff; /* Fondo blanco para el formulario */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil para profundidad */
+    float: left; /* Alineación flotante */
+}
+
+/* Estilo para la caja de datos */
+#cajadatos {
+    width: 450px;
+    margin: 30px 0 30px 20px;
+    padding: 20px;
+    border: 1px solid #005792; /* Borde azul oscuro */
+    border-radius: 5px;
+    background-color: #ffffff; /* Fondo blanco para datos */
+    float: left; /* Alineación flotante al lado del formulario */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los campos de entrada de texto y claves */
+#clave, #texto {
+    width: 200px;
+    height: 50px;
+    background-color: #e3f2fd; /* Fondo azul claro para los campos de entrada */
+    border: 1px solid #007bff; /* Borde azul */
+    border-radius: 5px;
+    padding: 10px; /* Espacio interno para texto */
+}
+
+/* Estilo para los contenedores de datos dentro de #cajadatos */
+#cajadatos > div {
+    padding: 5px;
+    border-bottom: 1px solid #005792; /* Línea azul para separar datos */
+    background-color: #f9f9f9; /* Un fondo ligeramente distinto para segmentar */
+}
+
+/* Estilo para los párrafos dentro de las cajas */
+p {
+    background-color: #d1e0e0; /* Fondo azul pálido para los párrafos */
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-style: italic;
+    padding: 10px; /* Espacio interno para legibilidad */
+    border-radius: 5px; /* Bordes redondeados para estética */
+}
+
+/* Estilos para botones grabar y eliminar */
+#grabar, #eliminar {
+    background-color: #007bff; /* Color azul brillante para botones */
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: white; /* Texto blanco para contraste */
+    cursor: pointer; /* Cursor de mano al pasar sobre los botones */
+    border: none; /* Sin bordes */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+#grabar:hover, #eliminar:hover {
+    background-color: #0056b3; /* Cambio de color al pasar el cursor a un azul más oscuro */
+}
