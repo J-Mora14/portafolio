@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<title>Cuestionario</title>
+</head>
+<body>
+	    <div id="contiene">
+	<h1>Responde la encuesta</h1>
+	<h2>Tu opinión es importante</h2>
+<div>
+	<form>
+	<ul>
+
+		<li>1. ¿Qué es Big Data y por qué es relevante en la actualidad?</li>
+		<input type="radio" name="r1" id="r1" value="0"/>a) Big Data se refiere a datos de tamaño medio y su relevancia radica en su facilidad de procesamiento.<br/>
+		<input type="radio" name="r1" id="r1" value="5"/>b) Big Data se refiere a enormes conjuntos de datos que no pueden ser procesados con métodos convencionales, y es relevante porque revela patrones ocultos.<br/>
+		<input type="radio" name="r1" id="r1" value="0"/>c) Big Data es simplemente un término de moda sin relevancia práctica.<br/>
+		
+		<li>2. ¿Cuál es uno de los principales desafíos del Big Data además de los problemas técnicos?</li>
+		<input type="radio" name="r2" id="r2" value="0"/>a) Falta de herramientas de almacenamiento.<br/>
+		<input type="radio" name="r2" id="r2" value="5"/>b) Desafíos legales y éticos relacionados con la privacidad y seguridad de los datos personales.<br/>
+		<input type="radio" name="r2" id="r2" value="0"/>c) Escasez de datos disponibles para su análisis.<br/>
+
+		<li>3. ¿Cómo se relaciona el Big Data con la mejora de la experiencia del cliente?</li>
+		<input type="radio" name="r3" id="r3" value="0"/>a) El Big Data no tiene relación con la experiencia del cliente.<br/>
+		<input type="radio" name="r3" id="r3" value="5"/>b) Ayuda a entender las preferencias y comportamientos del cliente para ofrecer productos y servicios más personalizados.<br/>
+		<input type="radio" name="r3" id="r3" value="0"/>c) Solo es relevante para la optimización de procesos internos de la empresa.<br/>
+
+        <li>4. ¿Qué papel juegan los programadores en el ecosistema de Big Data?</li>
+		<input type="radio" name="r4" id="r4" value="0"/>a) Los programadores no son necesarios para el Big Data.<br/>
+		<input type="radio" name="r4" id="r4" value="5"/>b) Desarrollan las aplicaciones y algoritmos que permiten el procesamiento y análisis eficiente de los datos.<br/>
+		<input type="radio" name="r4" id="r4" value="0"/>c) Solo se encargan del almacenamiento de los datos.<br/>
+
+		<li>5. ¿Qué es el análisis de datos y qué disciplinas combina?</li>
+		<input type="radio" name="r4" id="r4" value="0"/>a) El análisis de datos es exclusivamente el proceso de examinar conjuntos de datos sin combinar ninguna disciplina.<br/>
+		<input type="radio" name="r4" id="r4" value="5"/>b) Es el proceso de examinar conjuntos de datos para descubrir patrones y extraer conclusiones significativas, combinando elementos de estadística, matemáticas y programación informática.<br/>
+		<input type="radio" name="r4" id="r4" value="0"/>c) Se refiere únicamente al procesamiento de datos para su almacenamiento.<br/>
+
+		<li>6. ¿Cuál es la relación entre la programación y el análisis de datos?</li>
+		<input type="radio" name="r4" id="r4" value="0"/>a) No hay relación entre programación y análisis de datos.<br/>
+		<input type="radio" name="r4" id="r4" value="5"/>b) La programación es crucial para automatizar el tratamiento de datos y facilitar análisis complejos<br/>
+		<input type="radio" name="r4" id="r4" value="0"/>c) La programación solo se utiliza para el almacenamiento de datos.<br/>
+
+		<li>7. ¿Cómo puede ayudar el análisis de datos en el ámbito empresarial?</li>
+		<input type="radio" name="r4" id="r4" value="0"/>a) No tiene impacto en el ámbito empresarial.<br/>
+		<input type="radio" name="r4" id="r4" value="5"/>b) Ayuda a las organizaciones a tomar decisiones más informadas, desde la optimización de operaciones hasta el diseño de estrategias de marketing.<br/>
+		<input type="radio" name="r4" id="r4" value="0"/>c) Solo es útil para la gestión de recursos humanos.<br/>
+
+		<li>8. Menciona una herramienta ampliamente utilizada en el análisis de datos:</li>
+		<input type="radio" name="r4" id="r4" value="5"/>a) SAS.<br/>
+		<input type="radio" name="r4" id="r4" value="0"/>b) Instagram<br/>
+		<input type="radio" name="r4" id="r4" value="0"/>c) WhatsApp<br/>
+
+		<li>9. ¿Qué tipos de análisis se pueden realizar dentro del análisis de datos?</li>
+		<input type="radio" name="r4" id="r4" value="0"/>a) Solo análisis transaccional.<br/>
+		<input type="radio" name="r4" id="r4" value="5"/>b) Análisis de sentimiento en redes sociales, modelos de predicción de churn en clientes, optimización de rutas logísticas, entre otros.<br/>
+		<input type="radio" name="r4" id="r4" value="0"/>c) Análisis exclusivamente financiero.<br/>
+
+		<li>10. ¿Cuál es la función principal de un Big Data Analyst en una empresa?</li>
+		<input type="radio" name="r4" id="r4" value="0"/>a) Solo manejan datos sin tomar decisiones.<br/>
+		<input type="radio" name="r4" id="r4" value="5"/>b) Creación de modelos predictivos, análisis estadísticos y visualización de datos para comunicar hallazgos.<br/>
+		<input type="radio" name="r4" id="r4" value="0"/>c) Solo se encargan de almacenar los datos.<br/>
+
+
+	</ul>
+</form>
+</div>
+<input type="button" value="Calificar" onclick="califica()">
+<p></p>
+<p id="total">   </p>
+<p id="comentario">   </p>
+<input type="button" onclick="generar()" value="Ver resultados"/> <br/>
+<iframe frameborder="0" width="600" height="500"></iframe>
+</div>
+
+</body>
+</html>
