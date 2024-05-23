@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: pink; /* Color de fondo rosa para toda la página */
+}
+
+div {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+input[type="text"], input[type="button"] {
+    width: 100%; /* Hace que los elementos de entrada ocupen todo el ancho de la página */
+    padding: 20px; /* Aumenta el relleno para una mejor visualización */
+    margin: 5px 0; /* Espacio entre los elementos */
+    box-sizing: border-box; /* Incluye el padding y border en el ancho total */
+}
+
+input[type="text"] {
+    border: 2px solid #FFC0CB; /* Borde ligero para el campo de texto */
+}
+
+input[type="button"] {
+    background-color: #FF69B4; /* Color rosa fuerte para el botón */
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
